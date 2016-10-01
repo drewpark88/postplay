@@ -1,0 +1,104 @@
+#postp-metabox-wrap #credit-bal {
+	width: 100%; 
+	text-align: center; 
+	padding: 10px 0;
+	background: #F1F1F1; 
+	font-weight: bold;
+}
+
+#postp-metabox-wrap #credit-charge-wrap #charge-display-oval {
+	background: #4EC24A;
+	max-width: 20px;
+	border-radius: 20px;
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	margin: 0 auto;
+}
+
+#postp-metabox-wrap #credits-spend {
+	text-align: center; 
+	padding: 0;
+}
+
+#postp-metabox-wrap #pp-words-count {
+	text-align: center;
+	color: #D8CACA;
+	font-weight: normal;
+	margin-top: 0;
+}
+
+#postp-metabox-wrap #postp-switch-wrap {
+	text-align: center;
+}
+
+#postp-metabox-wrap #postp-switch {
+	display: inline-block;
+}
+
+#postp-metabox-wrap #postp-switch .switch-split {
+	float: left; 
+	padding: 10px 20px;
+	background: #eee;
+	color: #eee;
+	font-weight: bold;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	border: 1px solid #eee;
+}
+
+#postp-metabox-wrap #postp-switch .switch-split.active {
+	background: #DA5B5B;
+	border:1px solid #CBCEA9;
+}
+
+#postp-metabox-wrap #postp-switch::after {
+	content: ""; 
+	clear: both; 
+	display: block;
+	height: 10px;
+}
+
+.postplay-error{
+	background: #FF5050 !important;
+	color: #fff;
+}
+
+#postp-metabox-wrap #postp-switch .switch-split.switch-yes {
+    float: left;
+    padding: 10px 20px;
+    background: #eee;
+    color: #b5b5b5;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    border: none;
+}
+
+#postp-metabox-wrap #postp-switch .switch-split.switch-yes.active {
+    background: #4EC24A;
+    color: #fff;
+}
+
+#postp-metabox-wrap #postp-switch .switch-split.switch-no {
+    float: left;
+    padding: 10px 20px;
+    background: #eee;
+    color: #b5b5b5;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    border: none;
+}
+
+#postp-metabox-wrap #postp-switch .switch-split.switch-no.active {
+    background: #DA5B5B;
+    color: #fff;
+}
